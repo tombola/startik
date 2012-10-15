@@ -87,9 +87,17 @@ projects[node_convert][subdir] = contrib
 
 projects[basic][subdir] = contrib
 projects[antonelli][subdir] = contrib
-projects[omega][subdir] = contrib
 projects[basic][subdir] = contrib
 projects[zen][subdir] = contrib
+
+projects[adaptivetheme][subdir] = contrib
+
+projects[omega][subdir] = contrib
+projects[omega_tools][subdir] = contrib
+projects[navin][subdir] = contrib
+projects[respond][subdir] = contrib
+projects[omega_kickstart][subdir] = contrib
+projects[beta][subdir] = contrib
 
 projects[fences][subdir] = contrib
 
