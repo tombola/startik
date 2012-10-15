@@ -108,6 +108,11 @@ projects[fences][subdir] = contrib
 ; PATCH allows permissions to be exported per role (http://drupal.org/node/656312#comment-6347318)
 ; projects[features][patch][] = http://drupal.org/files/keep_negative_permissions-656312-17.patch
 
+projects[startik_features][type] = module
+projects[startik_features][subdir] = custom
+projects[startik_features][download][type] = git
+projects[startik_features][download][url] = git@github.com:tombola/startik_features.git
+
 ; UCF private ====================================================================
 
 projects[ucf_authenticate][type] = module
