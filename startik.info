@@ -30,6 +30,8 @@ dependencies[] = ds_forms
 dependencies[] = ds_extras
 dependencies[] = field_display_label
 
+dependencies[] = fences
+
 dependencies[] = list
 dependencies[] = backup_migrate
 

@@ -35,6 +35,7 @@ projects[ds][version] = 2.x
 projects[context][subdir] = contrib
 projects[spaces][subdir] = contrib
 projects[spaces][version] = 3.x-dev
+projects[purl][subdir] = contrib
 projects[features][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
@@ -86,10 +87,9 @@ projects[node_convert][subdir] = contrib
 
 projects[basic][subdir] = contrib
 projects[antonelli][subdir] = contrib
-projects[apartik][type] = theme
-projects[apartik][subdir] = custom
-projects[apartik][download][type] = git
-projects[apartik][download][url] = git@github.com:tombola/apartik.git
+projects[omega][subdir] = contrib
+projects[basic][subdir] = contrib
+projects[zen][subdir] = contrib
 
 projects[fences][subdir] = contrib
 
