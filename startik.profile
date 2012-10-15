@@ -7,7 +7,9 @@
 function startik_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
 	$form['server_settings']['site_default_country']['#default_value'] = 'UK';
-	$form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/London'; // West coast, best coast
+	$form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/London';
+	$form['update_notifications']['update_status_module_1']['#default_value'] = '0';
+	$form['update_notifications']['update_status_module_2']['#default_value'] = '0';
 }
 
 /**
