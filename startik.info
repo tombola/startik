@@ -28,7 +28,6 @@ dependencies[] = ds
 dependencies[] = ds_search
 dependencies[] = ds_forms
 dependencies[] = ds_extras
-dependencies[] = eva
 dependencies[] = field_display_label
 
 dependencies[] = list

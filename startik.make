@@ -1,4 +1,4 @@
-xapi = 2
+api = 2
 core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = 7.15
@@ -35,6 +35,9 @@ projects[ds][version] = 2.x
 projects[context][subdir] = contrib
 projects[spaces][subdir] = contrib
 projects[spaces][version] = 3.x-dev
+projects[features][subdir] = contrib
+projects[strongarm][subdir] = contrib
+projects[views][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[field_permissions][subdir] = contrib
 
@@ -58,7 +61,10 @@ projects[login_destination][subdir] = contrib
 projects[block_titlelink][subdir] = contrib
 
 ; developer ====================
+projects[devel][subdir] = contrib
 projects[module_filter][subdir] = contrib
+projects[admin][subdir] = contrib
+projects[ctools][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 projects[token][subdir] = contrib
 projects[features_orphans][subdir] = contrib
@@ -90,6 +96,7 @@ projects[fences][subdir] = contrib
 ; Custom Modules ==============================================================
 
 ; Features ====================================================================
+
 ; PATCH allows permissions to be exported per role (http://drupal.org/node/656312#comment-6347318)
 ; projects[features][patch][] = http://drupal.org/files/keep_negative_permissions-656312-17.patch
 
