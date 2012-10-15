@@ -1,0 +1,39 @@
+name = Startik
+core = 7.x
+description = Start quick
+
+; Core
+dependencies[] = book
+dependencies[] = contact
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
+
+dependencies[] = ds
+dependencies[] = ds_search
+dependencies[] = ds_forms
+dependencies[] = ds_extras
+dependencies[] = eva
+dependencies[] = field_display_label
+
+dependencies[] = list
+dependencies[] = backup_migrate
+
+; Custom Modules
+
+
