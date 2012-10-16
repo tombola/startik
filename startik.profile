@@ -32,11 +32,13 @@ function startik_install_form ($form_state) {
 	$form['dev_mode'] = array(
 	'#type' => 'checkbox', 
 	'#title' => t('Development mode'), 
+	'#default_value' => 1,
 	'#description' => 'Start with development modules and features enabled'
 	);
 	$form['uk_region'] = array(
 	'#type' => 'checkbox', 
 	'#title' => t('UK regional settings'), 
+	'#default_value' => 1,
 	'#description' => 'Start with UK style date formats etc'
 	);
 		$form['help_resources'] = array(
